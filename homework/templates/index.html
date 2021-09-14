@@ -21,7 +21,11 @@
             crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
 
-    <title>스파르타코딩클럽 | 부트스트랩 연습하기</title>
+    <title> (연습사이트) 성우의 치킨샵 </title>
+
+    <meta property="og:title" content="(연습사이트) 성우의 치킨샵" />
+    <meta property="og:description" content="주문해도 안옴 ^^" />
+    <meta property="og:image" content="{{ url_for('static', filename='ogimage.jpg') }}" />
     <style>
         * {
             font-family: 'Jua', sans-serif;
@@ -56,6 +60,7 @@
     <script>
         $(document).ready(function () {
             q1()
+            showOrder()
         });
 
 
@@ -71,6 +76,49 @@
                 }
             })
         }
+
+        function postOrder() {
+            let username = $('#post-username').val()
+            let num = $('#inputGroupSelect01').val()
+            let address = $('#post-address').val()
+            let phone = $('#post-phone').val()
+
+            $.ajax({
+                type: "POST",
+                url: "/order",
+                data: {username_give: username, num_give: num, address_give: address, phone_give: phone},
+                success: function (response) {
+                    console.log(username, num, address, phone)
+                    alert(response["msg"])
+                    window.location.reload()
+                }
+            })
+        }
+
+        function showOrder() {
+            $.ajax({
+                type: "GET",
+                url: "/order",
+                data: {},
+                success: function (response) {
+                    let orders = response['all_orders']
+                    for (let i = 0; i < orders.length; i++) {
+                        let username = orders[i]['username']
+                        let num = orders[i]['num']
+                        let address = orders[i]['address']
+                        let phone = orders[i]['phone']
+                        temp_html = `<tr>
+                        <td>${username}</td>
+                        <td>${num}</td>
+                        <td>${address}</td>
+                        <td>${phone}</td>
+                    </tr>`
+                        $('#order-box').append(temp_html)
+                    }
+                }
+            })
+        }
+
 
     </script>
 </head>
@@ -91,7 +139,7 @@
             <span class="input-group-text" id="basic-addon1">주문자 이름</span>
         </div>
         <input type="text" class="form-control" placeholder="Username" aria-label="Username"
-               aria-describedby="basic-addon1">
+               aria-describedby="basic-addon1" id="post-username">
     </div>
     <div class="input-group mb-3">
         <div class="input-group-prepend">
@@ -109,18 +157,34 @@
             <span class="input-group-text" id="basic-addon1">주소</span>
         </div>
         <input type="text" class="form-control" placeholder="Address" aria-label="Username"
-               aria-describedby="basic-addon1">
+               aria-describedby="basic-addon1" id="post-address">
     </div>
     <div class="input-group mb-3">
         <div class="input-group-prepend">
             <span class="input-group-text" id="basic-addon1">전화번호</span>
         </div>
         <input type="text" class="form-control" placeholder="Phone Number" aria-label="Username"
-               aria-describedby="basic-addon1">
+               aria-describedby="basic-addon1" id="post-phone">
     </div>
 
 
-    <button class="btn" type="submit">주문하기</button>
+    <button class="btn" type="submit" onclick="postOrder()">주문하기</button>
+
+    <br>
+
+    <div class="orders">
+        <table class="table">
+            <thead>
+            <tr>
+                <th scope="col">이름</th>
+                <th scope="col">수량</th>
+                <th scope="col">주소</th>
+                <th scope="col">전화번호</th>
+            </tr>
+            </thead>
+            <tbody id="order-box"></tbody>
+        </table>
+    </div>
 
 </body>
 
