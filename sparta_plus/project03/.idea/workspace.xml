@@ -5,21 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aae0c00d-0cdb-43b4-b380-11b4307e2676" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/project03.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prac_scraping.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prac_scraping_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scraping.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/banner.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/rtan_heart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/prac_map.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project04/.gitignore" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TimeAttack/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TimeAttack/data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TimeAttack/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/marker-default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/marker-liked.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scraping.py" beforeDir="false" afterPath="$PROJECT_DIR$/scraping.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +161,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1631794426171</updated>
-      <workItem from="1631794427668" duration="5122000" />
+      <workItem from="1631794427668" duration="5735000" />
+      <workItem from="1631866420582" duration="636000" />
+      <workItem from="1632232237778" duration="4152000" />
     </task>
     <servers />
   </component>
@@ -183,11 +180,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/project03$scraping.coverage" NAME="scraping Coverage Results" MODIFIED="1631798986867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project03$scraping.coverage" NAME="scraping Coverage Results" MODIFIED="1632233443585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/project03$prac_scraping.coverage" NAME="prac_scraping Coverage Results" MODIFIED="1631795496982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/project03$app.coverage" NAME="app Coverage Results" MODIFIED="1631796738441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project03$app.coverage" NAME="app Coverage Results" MODIFIED="1632232240053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/project03$prac_scraping_2.coverage" NAME="prac_scraping_2 Coverage Results" MODIFIED="1631795665567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
