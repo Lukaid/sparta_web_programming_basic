@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aae0c00d-0cdb-43b4-b380-11b4307e2676" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../TimeAttack/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../TimeAttack/data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../TimeAttack/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/marker-default.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/marker-liked.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scraping.py" beforeDir="false" afterPath="$PROJECT_DIR$/scraping.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +34,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/static" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../pythonprac" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -163,7 +154,9 @@
       <updated>1631794426171</updated>
       <workItem from="1631794427668" duration="5735000" />
       <workItem from="1631866420582" duration="636000" />
-      <workItem from="1632232237778" duration="4152000" />
+      <workItem from="1632232237778" duration="4752000" />
+      <workItem from="1632356672008" duration="3032000" />
+      <workItem from="1632374552052" duration="59000" />
     </task>
     <servers />
   </component>
