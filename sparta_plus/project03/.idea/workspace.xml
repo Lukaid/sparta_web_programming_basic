@@ -5,7 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aae0c00d-0cdb-43b4-b380-11b4307e2676" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../team_project/data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../team_project/static/mycss.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../team_project/static/myjs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../team_project_bulma/.idea/team_project_bulma.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../team_project_bulma/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../team_project_bulma/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../team_project_bulma/templates/question.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project04/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project04/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project04/templates/prac_bulma.html" beforeDir="false" afterPath="$PROJECT_DIR$/../project04/templates/prac_bulma.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../team_project/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../team_project/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../team_project/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../team_project/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +45,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../pythonprac" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -157,6 +168,7 @@
       <workItem from="1632232237778" duration="4752000" />
       <workItem from="1632356672008" duration="3032000" />
       <workItem from="1632374552052" duration="59000" />
+      <workItem from="1632725833587" duration="610000" />
     </task>
     <servers />
   </component>
